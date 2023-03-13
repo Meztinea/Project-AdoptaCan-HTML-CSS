@@ -1,0 +1,88 @@
+/*  Todo el documento  */
+*{
+    margin: 0;  /* Restablece los márgenes de todo el documento a 0 */
+    padding: 0; /* Restablece todos los paddings a todo el documento a 0 */
+}
+
+/*  Body  */
+body{
+    background: whitesmoke; /* Color de fondo */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   /* Fuente de letra */
+    color: darkblue;    /* Color de letra */
+}
+
+a{
+    text-decoration: none;      /* Elimina el subrayado de los links */
+    color: darkblue;        /* Color de leetra de los enlaces */
+}
+
+/*  Header  */
+header{
+    background: darkcyan;         /*  Define el fondo del header */    
+    padding: 10px 40px;             /*  Genera espacio dentro del header */
+    margin-bottom: 20px;            /*  Genera espacio fuera del header para separar el body */
+    font-weight: bold;              /* Hace negritas el texto del header */
+}
+
+header h1 {
+    font-size: 40px;                /* Define el tamaño de letra del texto Adopta-Can */
+    display: inline-block;          /* Hace que el texto Adopta-Can utilice solo el ancho que necesita */
+}
+
+header nav{
+    float: right;                   /* Hace que el nav flote a la derecha */ 
+    margin-top: 20px;               /* Genera espacio en la parte superior del nav */
+}
+
+/* Aplica estilos a la lista del header */
+header nav li{
+    list-style: none;   /* Elimina los puntos de una lista desordeanda */
+    display: inline;    /* Hace que la lista quede alineada horizontalmente*/
+    padding: 5px;       /* Genera espacio dentro de la etiqueta para separar el texto de los elementos */
+}
+
+header nav li a{
+    transition: color 0.3s ease;    /* Activa el efecto de cambio de color en los enlaces */
+}
+
+header nav li a:hover{
+    color: #fff;                /* Crea el efecto de cambio de color en los enlaces */
+}
+
+/*  Section  */
+.imagen{
+    float: left;        /* Posiciona al div del lado izquierdo */
+    width: 45%;       /* Define el ancho del div */
+    height: 30rem;     /* Define el alto del div */
+    margin-left: 5%;  /* Define un margen izquierdo del div */
+    /* box-sizing: border-box; */
+}
+
+.texto{
+    float: left;       /* Posiciona al div del lado derecho */
+    width: 45%;       /* Define el ancho del div */
+    height: 30rem;     /* Define el alto del div */
+    margin-right: 5%; /* Define un margen derecho del div */
+    /* box-sizing: border-box; */
+}
+
+#titulo{
+    margin-top:  8rem;  /* Define un margen superior para el titulo */
+    font-size: 60px;    /* Define el tamaño de letra del titulo */
+    font-weight: bold;  /* Define la letra del titulo en negritas */
+    text-align: center; /* Define que el texto debe alinearse centrado */
+}
+
+#descripcion{
+    margin-bottom:  20rem;  /* Define un margen inferior para la descripción */
+    text-align: justify;    /* Define que el texto debe alinearse justificado */
+} 
+
+
+/*  Footer  */
+footer{
+    display: block;
+    font-size: 12px;    /* Define el tamaño de letra del footer */
+    margin: 1% 50px;    /* Define un de  1% verticalmente y 50px horizontalmente*/
+    /* float: left;        Define que el footer debe alinearse a la izquierda */
+}
